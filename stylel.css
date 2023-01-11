@@ -1,9 +1,7 @@
 *{
     font-family: Work Sans;
 }
-.hero{
-    margin: 0%;
-}
+
 .btn-primary{
     color: white;
     font-size: 20px;
@@ -15,7 +13,7 @@
 }
 .hero-img{
 
-    background-image: url("/images/banner/banner1.png");
+    background-image: url("images/banner/banner1.png");
     height: 809px;
     background-position:center;
     background-size: cover;
@@ -28,7 +26,8 @@
 .hreo-text{
     text-align: right;
     position: absolute;
-    left: 1000px;
+    left: 845px;
+    margin-right: 230px;
     bottom: 116px;
     
     
@@ -102,6 +101,8 @@ ul {
   /* plan-container */
   .palan-section{
     margin-bottom: 130px;
+    margin-left: 230px;
+    margin-right: 230px;
   }
   .paln-tittle{
     text-align: center;
@@ -112,19 +113,16 @@ ul {
 .my-plan{
     display: flex;
     justify-content: space-around;
-    margin-left: 330px;
-    margin-right: 330px;
     margin-bottom: 131px;
-    
+    align-items: center;
 }
 .plan-t{
-    text-align: left;
-    font-weight: 700;
-    font-size: 40px;
+    
+    font-weight: 600;
+    font-size: 35px;
     color: #151414;
 }
 .plan-p{
-    text-align: left;
     font-weight: 500;
     font-size: 30px;
     color: #737272;
@@ -132,16 +130,15 @@ ul {
 /* gradient-image */
 
 .gradient-image{
-    background-image: url("/images/watch.png");
-    background-position:center;
+    background-image: url("images/watch.png");
+    margin-left: 230px;
+    margin-right: 230px;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    width: 1290px;
+    justify-content: space-around;
     height: 300px;
     border-radius: 8px;
-    margin-left: 330px;
-    margin-right: 330px;
     margin-bottom: 131px;
     
 }
@@ -166,10 +163,10 @@ ul {
     
 }
 .video{
-    margin-left: 330px;
-    margin-right: 330px;
     display: flex;
-    justify-content: space-around;
+    gap: 50px;
+    margin-left: 230px;
+    margin-right: 230px;
     margin-bottom: 130px;
 }
 
@@ -182,9 +179,9 @@ ul {
     color: #FFFFFF;
 }
 .footer-left{
+    margin-left: 230px;
     width: 485px;
     height: 317px;
-    margin-left: 330px;
     text-align: left;
     
 }
@@ -200,10 +197,9 @@ ul {
     font-weight: 17px;
 }
 .footer-right{
-    margin-top: 24px;
+    margin-right: 230px;
     width: 325px;
     height: 204px;
-    margin-right: 330px;
     text-align: left;
     
 }
