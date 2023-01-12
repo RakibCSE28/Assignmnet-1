@@ -99,10 +99,11 @@ ul {
     color: green;
   }
   /* plan-container */
-  .palan-section{
+  .plan-section{
     margin-bottom: 130px;
     margin-left: 230px;
     margin-right: 230px;
+    
   }
   .paln-tittle{
     text-align: center;
@@ -113,18 +114,22 @@ ul {
 .my-plan{
     display: flex;
     justify-content: space-around;
+    gap: 86px;
     margin-bottom: 131px;
     align-items: center;
+    text-align: center;
+
 }
 .plan-t{
-    
+    margin-top: 24px;
     font-weight: 600;
-    font-size: 35px;
-    color: #151414;
+    font-size: 25px;
+    color: #151414; 
 }
 .plan-p{
+    margin-top: 24px;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 20px;
     color: #737272;
 }
 /* gradient-image */
